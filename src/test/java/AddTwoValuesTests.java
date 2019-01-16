@@ -27,7 +27,7 @@ public class AddTwoValuesTests {
     public void testAddTwoNegativeValues() { assertEquals("-10 + -5 must be -15", -15, calc.add(-10, -5)); }
 
     @Test
-    public void testMultiplyZeroAndPositiveValues() { assertEquals("0 * 5 must be 0", 0, calc.multiply(0, 5)); }
+    public void testMultiplyZeroAndPositiveValues() { assertEquals("0 * 8 must be 0", 0, calc.multiply(0, 8)); }
 
     @Test
     public void testDivideTwoPositiveValues() { assertEquals("30 / 5 must be 6", 6, calc.divide(30, 5)); }
@@ -38,6 +38,8 @@ public class AddTwoValuesTests {
 
     @Test
     public void testSquareRootTwoPositiveValues() { assertEquals("Square Root of 36 must be 6", 6.0, calc.sqrt(36)); }
+
+
 
     //TODO
     //add new tests for add() method
