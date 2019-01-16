@@ -29,9 +29,9 @@ public class Calculator {
     public double sqrt(double d) {
         return Math.sqrt(d);
     }
-    public double power (double p) {
-        return Math.pow(p,2);
-    }
+
+
+
 
 
     //TODO
